@@ -21,11 +21,17 @@ Just Execute Your Game Plan
 https://www.optimize.me/plus-one/just-execute-your-game-plan
 '''
 IF ( REACTION_TO_STIMULUS != COMFORTABLE) {
-    BREATHE_AND_STOP(); '''ATCQ + Stop Thinking + Flip the Switch'''
-    LISTEN(); '''How to listen like a therapist: 4 secret skills https://www.youtube.com/watch?v=UVN96JhDOmg'''
-    UNDERSTAND(); '''(Habit 5) Think Win/Win +https://www.optimize.me/plus-one/think-win-win''''
-    RESPOND(); '''"Frankl on Freedom" https://www.optimize.me/plus-one/frankl-on-freedom'''
+    BREATHE_AND_STOP();
+    LISTEN();
+    UNDERSTAND();
+    RESPOND();
 }
+'''
++1's
+- How to listen like a therapist: 4 secret skills https://www.youtube.com/watch?v=UVN96JhDOmg
+- Think Win/Win +https://www.optimize.me/plus-one/think-win-win
+- "Frankl on Freedom" https://www.optimize.me/plus-one/frankl-on-freedom
+'''
 
 IF ( ANXIETY > 0) {
     '''
@@ -50,15 +56,26 @@ IF ( ANXIETY > 0) {
     Be creative before reactive. #MakeYourself #MasterpieceDays
     AM + PM Bookends https://www.optimize.me/plus-one/am-pm-bookends
     '''
-    WAKE_WITH_PURPOSE(); '''Ikigai https://www.optimize.me/plus-one/ikigai'''
+    WAKE_WITH_PURPOSE();
     HYDRATE();
-    AM_MEDITATION(); '''A 2:43 Heroic Meditation https://www.optimize.me/plus-one/a-243-heroic-meditation'''
-    AM_MOVEMENT(); '''Movement > Exercise https://www.optimize.me/plus-one/movement-exercise'''
-    HEALTHY_BREAKFAST(); '''Eat Food https://www.optimize.me/plus-one/food-rule-1-eat-food'''
-    OSCILLATE(); '''Start Gymboss Plus Timer 1% (14:24) https://www.amazon.com/dp/B07QK9WBW6/ref=twister_B08B1RMCZ7?_encoding=UTF8&psc=1'''
+    AM_MEDITATION();
+    AM_MOVEMENT();
+    HEALTHY_BREAKFAST();
+    OSCILLATE(); '''Start Gymboss Plus Timer 1% (14:24)'''
+    
     '''
     INPUT MODULATION
     None are as important as you
     '''
     REDUCE_INPUTS();
 }
+'''
++1's
+- Ikigai https://www.optimize.me/plus-one/ikigai
+- A 2:43 Heroic Meditation https://www.optimize.me/plus-one/a-243-heroic-meditation'
+- Movement > Exercise https://www.optimize.me/plus-one/movement-exercise
+- Eat Food https://www.optimize.me/plus-one/food-rule-1-eat-food
+
+Heroic Equipment
+- Gymboss Plus Timer: https://www.amazon.com/dp/B07QK9WBW6/ref=twister_B08B1RMCZ7?_encoding=UTF8&psc=1
+'''
