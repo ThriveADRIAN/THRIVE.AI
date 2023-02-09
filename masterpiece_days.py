@@ -11,6 +11,7 @@ Daily Schedule Overview:
 
 '''
 
+# Constants for Masterpiece Days
 SHUTDOWN_COMPLETE_TIME = '6:00 PM'
 DINNER_TIME = '7:30 PM'
 START_FASTING_TIME = '8:00 PM'
@@ -22,13 +23,9 @@ STOP_FASTING_TIME = '8:00 PM'
 DIGITAL_SUNRISE_TIME = '8:30 AM'
 STARTUP_COMPLETE_TIME = '9:00 AM'
 
-'''
+# TODO: Define specifics for Routine sub-methods
 
-PM BOOKEND
-RATRICHARYA: THE AYURVEDIC NIGHT TIME ROUTINE
-https://rasa-ayurveda.com/blogs/lifestyle-support-blog/ratricharya-the-ayurvedic-night-time-routine-1
-
-'''
+# PM Bookend
 def runEveningRoutine ( TARGET_SLEEP_TIME ):
     eatLightDinner( DINNER_TIME )
     take100Steps()
@@ -46,13 +43,7 @@ def runEveningRoutine ( TARGET_SLEEP_TIME ):
     laydownForSleep( IN_BED_TIME )
     sleepOnLeftSide( TARGET_SLEEP_TIME )
 
-'''
-
-AM BOOKEND
-The Daily Routine
-https://www.ayurveda.com/the-daily-routine/
-
-'''
+# AM Bookend
 def runMorningRoutine ( WAKE_TIME ):
     wakeUpEarly()
     prayWithGratitude()
@@ -69,3 +60,15 @@ def runMorningRoutine ( WAKE_TIME ):
     practiceBreathing()
     meditate()
     eatHealthyBreakfast( STOP_FASTING_TIME )
+
+'''
+Reference Materials
+
+PM Bookend
+RATRICHARYA: THE AYURVEDIC NIGHT TIME ROUTINE
+https://rasa-ayurveda.com/blogs/lifestyle-support-blog/ratricharya-the-ayurvedic-night-time-routine-1
+
+AM Bookend
+The Daily Routine
+https://www.ayurveda.com/the-daily-routine/
+'''
