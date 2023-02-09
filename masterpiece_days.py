@@ -1,67 +1,71 @@
-SHUTDOWN_COMPLETE_TIME = 6:00 PM
-DINNER_TIME = 7:30 PM
-START_FASTING_TIME = 8:00 PM
-DIGITAL_SUNSET_TIME = 8:24 PM
-IN_BED_TIME = 9:30 PM
-TARGET_SLEEP_TIME = 10:00 PM
-WAKE_TIME = 6:00 AM
-STOP_FASTING_TIME = 8:00 PM
-DIGITAL_SUNRISE_TIME = 8:30 AM
-STARTUP_COMPLETE_TIME = 9:00 AM
+'''
+Masterpiece Days
+> Check out this 101 Lesson on the Heroic app! https://heroicus.page.link/dwU7
+
+Daily Schedule Overview:
+- DEEP LOVE HOURS = 6:00 PM - 8:30 PM
+- DIGITAL SELF-CARE ACCESS HOURS = 8:30 PM - 8:30 AM
+- FASTING PERIOD = 8:30 PM - 7:30 AM
+- DIGITAL FULL ACCESS HOURS = 8:30 AM - 8:30 PM
+- WORK HOURS = 9:00 AM - 6:00 PM
 
 '''
-DEEP LOVE HOURS = 6:00 PM - 8:30 PM
-DIGITAL SELF-CARE ACCESS HOURS = 8:30 PM - 8:30 AM
-FASTING PERIOD = 8:30 PM - 7:30 AM
-DIGITAL FULL ACCESS HOURS = 8:30 AM - 8:30 PM
-WORK HOURS = 9:00 AM - 6:00 PM
+
+SHUTDOWN_COMPLETE_TIME = '6:00 PM'
+DINNER_TIME = '7:30 PM'
+START_FASTING_TIME = '8:00 PM'
+DIGITAL_SUNSET_TIME = '8:30 PM'
+IN_BED_TIME = '9:30 PM'
+TARGET_SLEEP_TIME = '10:00 PM'
+WAKE_TIME = '6:00 AM'
+STOP_FASTING_TIME = '8:00 PM'
+DIGITAL_SUNRISE_TIME = '8:30 AM'
+STARTUP_COMPLETE_TIME = '9:00 AM'
+
 '''
 
-SOUL_FORCE = ( ENERGY + WORK + LOVE ) ^ CONSISTENCY
-
-'''
 PM BOOKEND
 RATRICHARYA: THE AYURVEDIC NIGHT TIME ROUTINE
 https://rasa-ayurveda.com/blogs/lifestyle-support-blog/ratricharya-the-ayurvedic-night-time-routine-1
-'''
-IF ( DINNER_TIME ) {
-    EAT_LIGHT_DINNER();
-    TAKE_100_STEPS();
-    SPEND_QUALITY_TIME_WITH_LOVED_ONES();
-    SHUTDOWN_DIGITAL_DEVICES( SHUTDOWN_COMPLETE_TIME );
-    DRINK_GOLDEN_MILK();
-    CLEANSE_MOUTH();
-    CLEANSE_FACE();
-    BATHE_IN_MOONLIGHT();
-    SELF_FOOT_MASSAGE();
-    MEDITATE();
-    PRACTICE_BREATHING();
-    LUBRICATE_NASAL_PASSAGES();
-    PRAY_WITH_GRATITUDE();
-    LAY_IN_BED( IN_BED_TIME );
-    SLEEP_ON_LEFT_SIDE( TARGET_SLEEP_TIME )
-}
 
 '''
+def runEveningRoutine ( TARGET_SLEEP_TIME ):
+    eatLightDinner( DINNER_TIME )
+    take100Steps()
+    spendQualityTimeWithLovedOnes()
+    shutdownDigitalDevices( SHUTDOWN_COMPLETE_TIME )
+    drinkGoldenMilk()
+    cleanseMouth()
+    clenseFace()
+    batheInMoonlight()
+    massageFeet()
+    meditate()
+    practiceBreathing()
+    lubricateNasalPassages()
+    prayWithGratitude()
+    laydownForSleep( IN_BED_TIME )
+    sleepOnLeftSide( TARGET_SLEEP_TIME )
+
+'''
+
 AM BOOKEND
 The Daily Routine
 https://www.ayurveda.com/the-daily-routine/
-'''
 
-IF ( WAKE_TIME ) {
-    WAKE_UP_EARLY();
-    PRAY_WITH_GRATITUDE();
-    CLEANSE_FACE();
-    CLEANSE_MOUTH();
-    DRINK_WATER();
-    EVACUATE_BOWEL();
-    LUBRICATE_NASAL_PASSAGES();
-    LUBRICATE_BODY();
-    BATHE_BODY();
-    WEAR_CLEAN_CLOTHES();
-    WEAR_PERFUME();
-    EXERCISE();
-    PRACTICE_BREATHING();
-    MEDITATE();
-    EAT_HEALTHY_BREAKFAST( STOP_FASTING_TIME );
-}
+'''
+def runMorningRoutine ( WAKE_TIME ):
+    wakeUpEarly()
+    prayWithGratitude()
+    cleanseFace()
+    cleanseMouth()
+    drinkWarmWater()
+    evacuateBowels()
+    lubricateNasalPassages()
+    moisturizeBody()
+    batheBody()
+    wearCleanClothes()
+    wearPerfume()
+    exercise()
+    practiceBreathing()
+    meditate()
+    eatHealthyBreakfast( STOP_FASTING_TIME )
