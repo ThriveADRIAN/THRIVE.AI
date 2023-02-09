@@ -6,7 +6,7 @@
 > 
 > *'Red pill and blue pill'. (2023, Feb 09). In [_Wikipedia_](https://en.wikipedia.org/wiki/Red_pill_and_blue_pill#:~:text=Morpheus%20says%20%22You%20take%20the,deep%20the%20rabbit%20hole%20goes.%22).*
 
-**ThriveOS** is a free, open source operating system (OS), released under the GNU General Public License (GPL).
+**ThriveOS** is a free, open source operating system (OS), released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 The **Thrive** operating system was created as an alternative, free, open source version of [***The Matrix***](https://en.wikipedia.org/wiki/The_Matrix_%28franchise%29) operating system, which was itself based on the principles and design of [***The One***](https://en.wikipedia.org/wiki/Love).
 
