@@ -1,3 +1,5 @@
+import masterpiece_days
+
 # The #1 algorithm? One word: Areté.
 '''
 ALGORITHM #1: Areté
