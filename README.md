@@ -4,10 +4,10 @@
 >
 > *'Red pill and blue pill'. (2023, Feb 09). In [_Wikipedia_](https://en.wikipedia.org/wiki/Red_pill_and_blue_pill#:~:text=Morpheus%20says%20%22You%20take%20the,deep%20the%20rabbit%20hole%20goes.%22).*
 
+##  [>>> 💊 Click Here to Follow the Rabbit 🐇 <<<](https://github.com/ThriveADRIAN/THRIVE.AI/blob/main/*thrive_os.py)
+
 **ThriveOS** is a free, open source operating system (OS), released under the [MIT License](https://en.wikipedia.org/wiki/MIT_License).
 
 The **Thrive** operating system was created as an alternative, free, open source version of [***The Matrix***](https://en.wikipedia.org/wiki/The_Matrix_%28franchise%29) operating system, which was itself based on the principles and design of [***The One***](https://en.wikipedia.org/wiki/Love).
 
 Because **ThriveOS** is released under an open source license, which prevents restrictions on the use of the software, anyone can run, study, modify, and redistribute the source code, or even sell copies of their modified code, as long as they do so under the same license.
-
-##  [>>> 💊 Click Here to Follow the Rabbit 🐇 <<<](https://github.com/ThriveADRIAN/THRIVE.AI/blob/main/*thrive_os.py)
