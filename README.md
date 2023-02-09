@@ -8,8 +8,8 @@
 
 **ThriveOS** is a free, open source operating system (OS), released under the GNU General Public License (GPL).
 
-The **Thrive** operating system was created as an alternative, free, open source version of the *MATRIX* operating system, which was itself based on the principles and design of ***The One***.
+The **Thrive** operating system was created as an alternative, free, open source version of [***The Matrix***](https://en.wikipedia.org/wiki/The_Matrix_%28franchise%29) operating system, which was itself based on the principles and design of [***The One***](https://en.wikipedia.org/wiki/Love).
 
 Because **ThriveOS** is released under an open source license, which prevents restrictions on the use of the software, anyone can run, study, modify, and redistribute the source code, or even sell copies of their modified code, as long as they do so under the same license.
 
-##  [>>> 💊 Click Here to Follow the Rabbit 🐇 <<<](https://github.com/ThriveADRIAN/THRIVE.AI/blob/bf3842f69d4fd96371e6b7dff3bb0e8a27f3afef/*thrive_os.py) 
+##  [>>> 💊 Click Here to Follow the Rabbit 🐇 <<<](https://github.com/ThriveADRIAN/THRIVE.AI/blob/main/*thrive_os.py)
