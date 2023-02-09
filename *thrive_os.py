@@ -7,12 +7,12 @@ IF ( ALIVE ) {
     STRIVE_TO( EXPRESS_BEST_VERSION( SELF ) );
 }
 '''
-def live_with_areté():
+def liveWithAreté():
     while self == alive:
-        express_best_version(self)
+        expressBestVersion(self)
 
 def main():
-    live_with_areté()
+    liveWithAreté()
 
 if __name__ == "__main__":
     main()
