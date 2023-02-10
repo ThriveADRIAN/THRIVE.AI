@@ -1,4 +1,4 @@
-import masterpiece_days # https://github.com/ThriveADRIAN/THRIVE.AI/blob/main/masterpiece_days.py
+import masterpiece_days
 
 # The #1 algorithm? One word: Areté.
 '''
