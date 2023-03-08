@@ -79,3 +79,17 @@ IF ( ANXIETY > 0) {
 Heroic Equipment
 - Gymboss Plus Timer: https://www.amazon.com/dp/B07QK9WBW6/ref=twister_B08B1RMCZ7?_encoding=UTF8&psc=1
 '''
+
+'''
+
+Sleep Medication Protocol
+
+'''
+IF READINESS < 70 {
+    IF AVERAGE_WEEKLY_INTAKE < 50%
+        takeMedicine('Gabapentin')
+        IF ( DAYS_NOT_FULLY_RECOVERED > 1 )
+            takeMedicine('Ativan')
+    ELSE 
+        contact(PSYCHIATRIST)
+}
