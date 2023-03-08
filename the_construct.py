@@ -85,11 +85,11 @@ Heroic Equipment
 Sleep Medication Protocol
 
 '''
-IF READINESS < 70 {
-    IF AVERAGE_WEEKLY_INTAKE < 50%
-        takeMedicine('Gabapentin')
-        IF ( DAYS_NOT_FULLY_RECOVERED > 1 )
+def runSleepMedicationProtocol( readinessScore ):
+    if ( readinessScore < 70 ):
+        if ( AVERAGE_WEEKLY_INTAKE < 3.5 ):
+            takeMedicine('Gabapentin')
+        if ( DAYS_NOT_FULLY_RECOVERED > 1 ):
             takeMedicine('Ativan')
-    ELSE 
-        contact(PSYCHIATRIST)
-}
+        else:
+            contact(PSYCHIATRIST)
