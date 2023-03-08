@@ -83,6 +83,7 @@ Heroic Equipment
 '''
 
 Sleep Medication Protocol
+See: https://ouraring.com/blog/readiness-score/
 
 '''
 def runSleepMedicationProtocol( readinessScore ):
