@@ -94,3 +94,33 @@ def runSleepMedicationProtocol( readinessScore ):
             takeMedicine('Ativan')
         else:
             contact(PSYCHIATRIST)
+
+'''
+
+Communications with Spouse
+
+'''
+def communicationWithSpouse( ):
+    createSpace()
+    verifyAvailability()
+    setExpectations( [Discussion,Story])
+    if (communication_type == Discussion):
+        identifyObjective( [Sympathy, Solution])
+    while (communication_status == "In Progress"):
+        activateEmpatheticListening()
+        if (communication_type == Discussion):
+            while ( discussion_topic == 1):
+                speaker_a.presentFirstTopic()
+                speaker_b.listenLikeTherapist()
+                if discussion_objective == Sympathy:
+                    if speaker_b.identifiesCoachingOpportunity():
+                        speaker_b.verifyOpenToCoaching()
+                        if speaker_a.openToCoaching == True:
+                            speaker_b.initiateCoaching()
+                if discussion_objective == Solution:
+                    speaker_b.initiateProblemSolving()
+                if speaker_a.readyToCloseTopic == True
+                    break
+        if (communication_type == Story):
+            speaker_a.presentStory()
+
